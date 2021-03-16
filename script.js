@@ -1,12 +1,17 @@
-/*const theOfficePic = document.getElementById('mscott');
 let laughedMore = false;
-if (theOfficePic) {
-    theOfficePic.addEventListener("mouseenter", function(event) {
-        if (!laughedMore) {
-            const moreLaughs = createElement('h3');
-            moreLaughs.innerHTML = 'Haha... aha... ha... :|';
-            document.getElementById('jokeSection').appendChild(moreLaughs);
-            laughedMore = true
-        }
-    })
-}*/
+const theOfficePic = document.getElementById('mscott');
+theOfficePic.addEventListener("mouseenter", function(event) {
+    while (laughedMore === false) {
+        const moreLaughs = document.createElement('h3');
+        moreLaughs.innerHTML = 'Haha... aha... ha... :|';
+        moreLaughs.id = 'tempLaugh'
+        document.getElementById('jokeSection').appendChild(moreLaughs);
+        laughedMore = true;
+    }
+})
+theOfficePic.addEventListener("mouseout", function(event) {
+    while (laughedMore === true) {
+        document.getElementById('tempLaugh').remove()
+        laughedMore = false;
+    }
+})
