@@ -1,5 +1,6 @@
 import React from "react";
 import { Accordion, Image } from "react-bootstrap";
+import ReactLinkify from "react-linkify";
 
 const skills = [
   {
@@ -72,6 +73,12 @@ const skills = [
 ];
 
 function Skills(props) {
+  const componentDecorator = (href, text, key) => (
+    <a href={href} key={key} target="_blank">
+      {text}
+    </a>
+  );
+
   return (
     <div>
       <h1>Skills</h1>
@@ -83,7 +90,9 @@ function Skills(props) {
               <h6> {skillObj.title}</h6>
             </Accordion.Header>
             <Accordion.Body>
-              <p>{skillObj.description}</p>
+              <ReactLinkify componentDecorator={componentDecorator}>
+                <p>{skillObj.description}</p>
+              </ReactLinkify>
             </Accordion.Body>
           </Accordion.Item>
         ))}
