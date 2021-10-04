@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Document, Page } from "react-pdf";
+import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 function ResumeContainer(props) {
   const [numPages, setNumPages] = useState(null);
@@ -12,12 +13,12 @@ function ResumeContainer(props) {
   return (
     <div>
       <Document
-        file={{
-          URL: "https://docs.google.com/document/d/1Z2njzUfNuKxbuRA3sgLVUwPeiN-QvblKd8YtkimoMzU/edit?format=pdf",
-        }}
+        file={
+          "https://docs.google.com/document/d/1Z2njzUfNuKxbuRA3sgLVUwPeiN-QvblKd8YtkimoMzU/export?format=pdf"
+        }
         onLoadSuccess={onDocumentLoadSuccess}
       >
-        <Page pageNumber={pageNumber} />
+        <Page width={(window.innerWidth / 5) * 4} pageNumber={pageNumber} />
       </Document>
     </div>
   );
