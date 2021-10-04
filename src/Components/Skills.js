@@ -68,7 +68,7 @@ const skills = [
     iconSource:
       "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png",
     description:
-      "Self-taught, starting in 2018. I built my second revision of the RapidbuS mobile app in this Android Studio with this language.",
+      "Self-taught, starting in 2018. I built my second revision of the RapidbuS mobile app in Android Studio with this language.",
   },
 ];
 
