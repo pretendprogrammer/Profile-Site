@@ -3,11 +3,13 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HomeComtainer from "./Containers/HomeComtainer";
 import Footer from "./Components/Footer";
 import ResumeContainer from "./Containers/ResumeContainer";
+import NavBar from "./Components/NavBar";
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <NavBar />
         <Switch>
           <Route exact path="/otherProjects"></Route>
           <Route exact path="/resume">
