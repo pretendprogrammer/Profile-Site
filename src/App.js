@@ -4,6 +4,7 @@ import HomeComtainer from "./Containers/HomeComtainer";
 import Footer from "./Components/Footer";
 import ResumeContainer from "./Containers/ResumeContainer";
 import NavBar from "./Components/NavBar";
+import RapidbuSContainer from "./Containers/RapidbuSContainer";
 
 function App() {
   return (
@@ -12,10 +13,12 @@ function App() {
         <NavBar />
         <Switch>
           <Route exact path="/otherProjects"></Route>
-          <Route exact path="/resume">
+          <Route exact path="/Resume">
             <ResumeContainer />
           </Route>
-          <Route exact path="/RapidbuS"></Route>
+          <Route exact path="/RapidbuS">
+            <RapidbuSContainer />
+          </Route>
           <Route exact path="/contact"></Route>
           <Route exact path="/">
             <HomeComtainer />
