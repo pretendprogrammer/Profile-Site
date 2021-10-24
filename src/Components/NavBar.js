@@ -12,7 +12,6 @@ function NavBar(props) {
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/Resume">Resume</Nav.Link>
               <Nav.Link href="/RapidbuS">RapidbuS</Nav.Link>
-              <Nav.Link href="/CodeWars">Code Wars</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
