@@ -1,5 +1,5 @@
 import React from "react";
-import { Figure, Image, ListGroup, NavLink } from "react-bootstrap";
+import { Figure, ListGroup } from "react-bootstrap";
 
 function Revision1(props) {
   return (
