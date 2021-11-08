@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { Button, ModalBody, NavLink } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import { Envelope, Github, Linkedin, Telephone } from "react-bootstrap-icons";
-import { Link } from "react-router-dom";
 import ContactModal from "./ContactModal";
 
 function Footer(props) {
@@ -16,9 +15,9 @@ function Footer(props) {
         toggleModal={toggleModal}
         body={modalBody}
       />
-      <Link to="https://github.com/pretendprogrammer">
+      <a href="https://github.com/pretendprogrammer">
         <Github />
-      </Link>
+      </a>
       <Button
         variant="light"
         onClick={() => {
@@ -37,9 +36,9 @@ function Footer(props) {
       >
         <Envelope />
       </Button>
-      <Link to="https://www.linkedin.com/in/yosef-adelman/">
+      <a href="https://www.linkedin.com/in/yosef-adelman/">
         <Linkedin />
-      </Link>
+      </a>
     </div>
   );
 }
