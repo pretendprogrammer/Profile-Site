@@ -15,10 +15,12 @@ function Revision3(props) {
       <p>
         A React-powered web interface to the database. Users can create
         accounts, districts, routes, passengers, and addresses for each.
-        Passengers can be connected with stops, and stops can be conntected to
-        routes. Routes can be copied from existing routes, and reordered if
-        there are small diferences between morning and afternoon runs. The same
-        route can be shared to multiple users or drivers.
+        Passengers are connected to locations through stops, and locations are
+        associated with routes. Routes can be copied from existing routes, and
+        reordered if there are small diferences between morning and afternoon
+        runs. The same route can be shared to multiple users. Routes, addresses,
+        and passengers can also be associated with a district, and shared from
+        that district to other users.
       </p>
       <h3>React-Native</h3>
       <p>
@@ -27,16 +29,16 @@ function Revision3(props) {
         from. Locations will be shown to the driver one at a time, with all the
         associated passengers listed below. Each passenger can have conditions
         programmed from the React interface to allow stops to be skipped at
-        specific times related to time of day, day of week, or calender date.
-        Records of the time each stop was marked as done get saved to the
-        database.
+        specific situations related to time of day, day of week, or calender
+        date. Records of the time each location was marked as done get saved to
+        the database.
       </p>
       <h3>Ruby on Rails</h3>
       <p>
         Multiple dimentions of associations and relationships between data
         models are established. Users are JWT authenticated and all requests
         check for a bearer token. Certain post requests trigger other model
-        instanced to be created automatically.
+        instances to be created automatically.
       </p>
       <Container>
         <h2>Watch me demonstrate using the 3rd revision of RapidbuS</h2>
