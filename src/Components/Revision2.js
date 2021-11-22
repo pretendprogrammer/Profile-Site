@@ -26,8 +26,10 @@ function Revision2(props) {
         could be added. Up to 100 stops could be added, each connecting one or
         more names to a single location. Stops could be programmed to skip
         automatically before or after midday (12PM), or highlight on the mobile
-        app. Log data could also be accessed. Logs could be downloaded as CSV's
-        of deleted individually, or all at the same time.
+        app. Log data could also be accessed. Logs could be downloaded as in a
+        CSV format and easily rendered cleanly by programs like Google Sheets
+        and Exell. Logs can be deleted from the database individually, or all at
+        the same time.
       </p>
       <h3>Android Studio</h3>
       <p>
