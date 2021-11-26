@@ -6,6 +6,7 @@ function Revision3(props) {
   return (
     <div>
       <strong>~~~In development~~~</strong>
+      <a href="rapidbus.herokuapp.com">Deployed!</a>
       <br />
       <strong>
         The third revision of RapidbuS uses React, React-Native, and Ruby on
