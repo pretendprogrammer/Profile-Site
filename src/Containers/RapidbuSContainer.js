@@ -6,7 +6,7 @@ import Revision2 from "../Components/Revision2";
 import Revision3 from "../Components/Revision3";
 
 function RapidbuSContainer(props) {
-  const [key, setKey] = useState("revision-1");
+  const [key, setKey] = useState("revision-3");
   return (
     <>
       <RapidbuSOverview />
