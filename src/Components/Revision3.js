@@ -5,8 +5,6 @@ import ReactPlayer from "react-player";
 function Revision3(props) {
   return (
     <div>
-      <strong>~~~In development~~~</strong>
-      <a href="rapidbus.herokuapp.com">Deployed!</a>
       <br />
       <strong>
         The third revision of RapidbuS uses React, React-Native, and Ruby on
@@ -14,14 +12,18 @@ function Revision3(props) {
       </strong>
       <h3>React</h3>
       <p>
-        A React-powered web interface to the database. Users can create
-        accounts, districts, routes, passengers, and addresses for each.
-        Passengers are connected to locations through stops, and locations are
-        associated with routes. Routes can be copied from existing routes, and
-        reordered if there are small diferences between morning and afternoon
-        runs. The same route can be shared to multiple users. Routes, addresses,
-        and passengers can also be associated with a district, and shared from
-        that district to other users.
+        A{" "}
+        <strong>
+          <a href="https://rapidbus.herokuapp.com">Deployed!</a>
+        </strong>{" "}
+        React-powered web interface to the database. Users can create accounts,
+        districts, routes, passengers, and addresses for each. Passengers are
+        connected to locations through stops, and locations are associated with
+        routes. Routes can be copied from existing routes, and reordered if
+        there are small diferences between morning and afternoon runs. The same
+        route can be shared to multiple users. Routes, addresses, and passengers
+        can also be associated with a district, and shared from that district to
+        other users.
       </p>
       <h3>React-Native</h3>
       <p>
@@ -37,9 +39,9 @@ function Revision3(props) {
       <h3>Ruby on Rails</h3>
       <p>
         Multiple dimentions of associations and relationships between data
-        models are established. Users are JWT authenticated and all requests
-        check for a bearer token. Certain post requests trigger other model
-        instances to be created automatically.
+        models are established on a deployed backend. Users are JWT
+        authenticated and all requests check for a bearer token. Certain post
+        requests trigger other model instances to be created automatically.
       </p>
       <Container>
         <h2>Watch me demonstrate using the 3rd revision of RapidbuS</h2>
