@@ -16,9 +16,7 @@ function HomeComtainer(props) {
       <p>
         <h4>
           Hi there! My name is Yosef Adelman, and I am a full stack developer.
-          Although I am currently living in Brooklyn (NY), my wife and I want to
-          move to Atlanta. If you want me to work for you in or around the
-          Atlanta (GA) area, we should talk! :)
+          Currently open for work.
         </h4>
       </p>
       <ExperienceAndEducation />
