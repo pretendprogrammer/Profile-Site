@@ -8,7 +8,7 @@ function Revision3(props) {
       <br />
       <strong>
         The third revision of RapidbuS uses React, React-Native, and Ruby on
-        Rails with PostgreSQL
+        Rails with PostgreSQL.
       </strong>
       <h3>React</h3>
       <p>

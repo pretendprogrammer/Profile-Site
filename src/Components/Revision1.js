@@ -15,18 +15,18 @@ function Revision1(props) {
       <ListGroup>
         <ListGroup.Item>Show passenger data one stop at a time</ListGroup.Item>
         <ListGroup.Item>
-          Mark stops as 'Completed', 'Skipped', or 'Missed'
+          Mark stops as 'Completed', 'Skipped', or 'Missed'.
         </ListGroup.Item>
         <ListGroup.Item>
-          Save stop logs with timestamps to files on device
+          Save stop logs with timestamps to files on device.
         </ListGroup.Item>
         <ListGroup.Item>
           Process TRUE/FALSE values from Google Sheet data to skip individual
-          passengers in the morning or afternoon
+          passengers in the morning or afternoon.
         </ListGroup.Item>
         <ListGroup.Item>
           'Flag' individual passenger's names with highlighting to bring extra
-          attetion from the driver
+          attetion from the driver.
         </ListGroup.Item>
       </ListGroup>
       <Figure>

@@ -17,7 +17,7 @@ function Revision2(props) {
         <br />
         Accounts were created for each user who needed access to a particular
         district or route. Authenticated user id's were hardcoded into the Rules
-        of the database
+        of the database.
       </p>
       <h3>Python</h3>
       <p>
