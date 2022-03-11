@@ -5,6 +5,7 @@ import Footer from "./Components/Footer";
 import ResumeContainer from "./Containers/ResumeContainer";
 import NavBar from "./Components/NavBar";
 import RapidbuSContainer from "./Containers/RapidbuSContainer";
+import AppPrivacyPolicy from "./Components/AppPrivacyPolicy";
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
       <Router>
         <NavBar />
         <Switch>
-          <Route exact path="/otherProjects"></Route>
+          <Route exact path="/appSupport/privacyPolicy">
+            <AppPrivacyPolicy />
+          </Route>
           <Route exact path="/Resume">
             <ResumeContainer />
           </Route>

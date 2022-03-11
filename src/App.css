@@ -17,3 +17,7 @@ p {
   width: 4%;
   height: 4%;
 }
+.react-pdf__Page.pdf-page {
+  display: flex;
+  justify-content: center;
+}

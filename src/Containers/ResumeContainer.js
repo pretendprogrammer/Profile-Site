@@ -10,15 +10,27 @@ function ResumeContainer() {
     setNumPages(numPages);
   };
 
+  const removeTextLayerOffset = () => {
+    const textLayers = document.querySelectorAll(
+      ".react-pdf__Page__textContent"
+    );
+    textLayers.forEach((layer) => {
+      const { style } = layer;
+      style.top = "0";
+      style.left = "0";
+      style.transform = "";
+    });
+  };
+
   return (
-    <div>
+    <div className="text-center">
       <Document
         file={
           "https://docs.google.com/document/d/1Z2njzUfNuKxbuRA3sgLVUwPeiN-QvblKd8YtkimoMzU/export?format=pdf"
         }
         onLoadSuccess={onDocumentLoadSuccess}
       >
-        <Page width={(window.innerWidth / 5) * 4} pageNumber={pageNumber} />
+        <Page pageNumber={pageNumber} />
       </Document>
     </div>
   );
