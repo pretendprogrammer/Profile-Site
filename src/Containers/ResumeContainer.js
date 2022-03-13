@@ -10,18 +10,6 @@ function ResumeContainer() {
     setNumPages(numPages);
   };
 
-  const removeTextLayerOffset = () => {
-    const textLayers = document.querySelectorAll(
-      ".react-pdf__Page__textContent"
-    );
-    textLayers.forEach((layer) => {
-      const { style } = layer;
-      style.top = "0";
-      style.left = "0";
-      style.transform = "";
-    });
-  };
-
   return (
     <div className="text-center">
       <Document
