@@ -10,7 +10,7 @@ function HomeComtainer(props) {
         roundedCircle
         height="25%"
         width="25%"
-        src="https://media-exp1.licdn.com/dms/image/C4D03AQGBlD0RscbNpQ/profile-displayphoto-shrink_400_400/0/1630598515892?e=1649289600&v=beta&t=U7nZ1cRrnS5sqC-meM-yK56OTrqCuCVcO8lZGP_oF78"
+        src="https://media-exp1.licdn.com/dms/image/C4D03AQGBlD0RscbNpQ/profile-displayphoto-shrink_800_800/0/1630598515892?e=1656547200&v=beta&t=JrSvN34Wl2jzvA6XsERk6cYA8COHI9-cOZNhW4KrUGI"
         alt="Here lies a picture of my face"
       />
       <p>
