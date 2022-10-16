@@ -81,7 +81,6 @@ function Skills(props) {
 
   return (
     <div>
-      <h1>Yeah I got skills; What you gonna do about it??</h1>
       <Accordion>
         {skills.map((skillObj) => (
           <Accordion.Item eventKey={skillObj.id} key={skillObj.id}>
