@@ -4,7 +4,7 @@ import ReactPlayer from "react-player";
 
 function Revision3(props) {
   return (
-    <div>
+    <>
       <br />
       <strong>
         The third revision of RapidbuS uses React, React-Native, and Ruby on
@@ -53,7 +53,7 @@ function Revision3(props) {
           controls
         />
       </Container>
-    </div>
+    </>
   );
 }
 

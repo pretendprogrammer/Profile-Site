@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomeComtainer from "./Containers/HomeComtainer";
 import Footer from "./Components/Footer";
 import ResumeContainer from "./Containers/ResumeContainer";
@@ -12,24 +12,17 @@ function App() {
     <div className="App">
       <Router>
         <NavBar />
-        <Switch>
-          <Route exact path="/appSupport/privacyPolicy">
-            <AppPrivacyPolicy />
-          </Route>
-          <Route exact path="/Resume">
-            <ResumeContainer />
-          </Route>
-          <Route exact path="/RapidbuS">
-            <RapidbuSContainer />
-          </Route>
-          <Route exact path="/contact"></Route>
-          <Route exact path="/">
-            <HomeComtainer />
-          </Route>
-        </Switch>
-        <Route path="/">
-          <Footer />
-        </Route>
+        <Routes>
+          <Route
+            exact
+            path="/app-support/privacy-policy"
+            element={<AppPrivacyPolicy />}
+          />
+          <Route exact path="/resume" element={<ResumeContainer />} />
+          <Route exact path="/rapidbus" element={<RapidbuSContainer />} />
+          <Route exact path="/" element={<HomeComtainer />} />
+        </Routes>
+        <Footer />
       </Router>
     </div>
   );

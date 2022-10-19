@@ -2,7 +2,7 @@ import React from "react";
 
 function AppPrivacyPolicy(props) {
   return (
-    <div>
+    <>
       Privacy Policy Last updated: March 10, 2022
       <br />
       This Privacy Policy describes Our policies and procedures on the
@@ -251,7 +251,7 @@ function AppPrivacyPolicy(props) {
       contact us:
       <br />
       By email: shmuli5770@gmail.com
-    </div>
+    </>
   );
 }
 

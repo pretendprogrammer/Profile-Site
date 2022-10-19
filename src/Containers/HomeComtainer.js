@@ -5,7 +5,7 @@ import YosefAdelmanFace from "../Resources/yosef_adelman_face.jpg";
 
 function HomeComtainer(props) {
   return (
-    <div>
+    <>
       <Image
         roundedCircle
         height="25%"
@@ -18,7 +18,7 @@ function HomeComtainer(props) {
         Currently open for work.
       </h4>
       <Skills />
-    </div>
+    </>
   );
 }
 
