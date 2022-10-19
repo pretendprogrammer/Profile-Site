@@ -7751,7 +7751,7 @@ react-pdf@^5.7.2:
     tiny-invariant "^1.0.0"
     tiny-warning "^1.0.0"
 
-react-player@^2.9.0:
+react-player@^2.11.0:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/react-player/-/react-player-2.11.0.tgz#9afc75314eb915238e8d6615b2891fbe7170aeaa"
   integrity sha512-fIrwpuXOBXdEg1FiyV9isKevZOaaIsAAtZy5fcjkQK9Nhmk1I2NXzY/hkPos8V0zb/ZX416LFy8gv7l/1k3a5w==

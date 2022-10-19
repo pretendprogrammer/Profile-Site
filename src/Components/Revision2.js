@@ -44,7 +44,13 @@ function Revision2(props) {
       </p>
       <Container>
         <h2>Watch me demonstrate using the 2nd revision of RapidbuS</h2>
-        <ReactPlayer url="https://youtu.be/13J79I5a0Ns" controls />
+        <ReactPlayer
+          style={{
+            margin: "auto",
+          }}
+          url="https://youtu.be/13J79I5a0Ns"
+          controls
+        />
       </Container>
     </div>
   );
