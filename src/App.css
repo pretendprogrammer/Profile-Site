@@ -18,9 +18,14 @@ p {
   height: 4%;
 }
 
-.react-pdf__Page__textContent {
-  margin: auto;
+.react-pdf__Page__textContent span {
+  opacity: 0.1;
 }
-.react-pdf__Page__canvas {
-  margin: auto;
+
+.react-pdf__Page__textContent span::selection {
+  background-color: blue;
+}
+
+.react-pdf__Document {
+  line-height: initial;
 }
