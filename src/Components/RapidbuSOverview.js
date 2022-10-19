@@ -37,7 +37,7 @@ function RapidbuSOverview(props) {
           <b>~40 TIMES!</b>
           <p>
             I thought that was pretty sad for 2018, so I built the first
-            Revision of RapidbuS for myself to use on the road instead of an 8"
+            revision of RapidbuS for myself to use on the road instead of an 8"
             by 11" sheet of paper.
           </p>
         </div>

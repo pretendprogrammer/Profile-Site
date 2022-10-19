@@ -34,7 +34,7 @@ function Revision3(props) {
         programmed from the React interface to allow stops to be skipped at
         specific situations related to time of day, day of week, or calender
         date. Records of the time each location was marked as done get saved to
-        the database. The app is made privately available to users.
+        the database. The app is available on the AppStore and Google Play.
       </p>
       <h3>Ruby on Rails</h3>
       <p>

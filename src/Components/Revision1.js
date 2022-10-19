@@ -7,10 +7,11 @@ function Revision1(props) {
       <h2>
         <a href="http://appinventor.mit.edu/">MIT App Inventor II</a>
       </h2>
-      <p>
-        First version of RapidbuS was data in a Google Sheet document, fetched
-        and processed by a mobile app developed in MIT's App Inventor interface.
-      </p>
+      <strong>
+        The first version of RapidbuS relied on data stored in a Google Sheet
+        document. The document was fetched and processed by a mobile app
+        developed with MIT's App Inventor online interface.
+      </strong>
       <h3>Features:</h3>
       <ListGroup>
         <ListGroup.Item>Show passenger data one stop at a time</ListGroup.Item>

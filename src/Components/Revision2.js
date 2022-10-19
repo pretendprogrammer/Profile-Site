@@ -7,8 +7,8 @@ function Revision2(props) {
     <div>
       <strong>
         The second revision of RapidbuS was built with Firebase's Realtime
-        Database, Python with Tkinter for the user interface, and Android Studio
-        in Kotlin.
+        Database, Python with Tkinter for the data management interface, and
+        Android Studio in Kotlin for the mobile drivers app.
       </strong>
       <h3>Firebase</h3>
       <p>
@@ -21,26 +21,26 @@ function Revision2(props) {
       </p>
       <h3>Python</h3>
       <p>
-        Using the Tkinter package as a user interface, users can log in with
+        Using the Tkinter package for visual components, users could log in with
         their credentials, and edit their routes. Unlimited amount of locations
-        could be added. Up to 100 stops could be added, each connecting one or
-        more names to a single location. Stops could be programmed to skip
-        automatically before or after midday (12PM), or highlight on the mobile
-        app. Log data could also be accessed. Logs could be downloaded as in a
-        CSV format and easily rendered cleanly by programs like Google Sheets
-        and Exell. Logs can be deleted from the database individually, or all at
-        the same time.
+        could be added. Up to 100 stops could be added per route, each
+        connecting one or more names to a single location. Stops could be
+        programmed to skip automatically before or after midday (12PM), or
+        highlight on the mobile app. Logs could also be downloaded and opened by
+        programs like Google Sheets and Exell. Logs can be deleted from the
+        database individually, or all at the same time from the data managment
+        application.
       </p>
       <h3>Android Studio</h3>
       <p>
-        Username and password were saved to the end device, and automatically
-        re-logged in on app start. Up to 3 different routes could be accessed.
-        On route start, names per location would be displayed one at a time. If
-        more than one name was connected to a single location, the location
-        address would be displayed on top, and all the names would be listed
-        below. Stops could be marked as missed, skipped, or completed by use of
-        3 buttons on screen. App would go to home screen when route was
-        finished.
+        The app could 'remember' up to 3 routes at a time, though users could
+        modify the configuration as needed to user additional routes. When a
+        route was selected, the app would show the user each location with its
+        passengers on at a time. If more than one name was connected to a single
+        location, the location address would be displayed on top, and all the
+        names would be listed below. Stops could be marked as missed, skipped,
+        or completed by use of 3 buttons on screen. App would go to home screen
+        when the route was finished.
       </p>
       <Container>
         <h2>Watch me demonstrate using the 2nd revision of RapidbuS</h2>
